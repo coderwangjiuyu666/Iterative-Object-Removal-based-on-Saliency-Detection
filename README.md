@@ -46,7 +46,7 @@ U2Net初始掩码生成 → 伪目标过滤 → SAM掩码精细化 → 形态学
 
 4. **后处理优化**：高斯模糊平滑、形态学去噪、归一化，输出最终显著性图（如下所示）
 
-   <img src="D:\课程相关\机器学习\大作业forGithub\docImage\saliency_1.jpg" style="zoom:67%;" />
+   <img src="/docImage/saliency_1.jpg" style="zoom:67%;" />
 
 ### 迭代物体移除模块
 
@@ -60,7 +60,7 @@ U2Net初始掩码生成 → 伪目标过滤 → SAM掩码精细化 → 形态学
 
 5. **迭代控制**：支持最大迭代次数、显著性阈值、重叠率等多维度停止条件控制
 
-   ![](D:\课程相关\机器学习\大作业forGithub\docImage\Snipaste_2026-03-15_15-29-50.png)
+   ![](/docImage/Snipaste_2026-03-15_15-29-50.png)
 
 ## 📋 环境要求
 
